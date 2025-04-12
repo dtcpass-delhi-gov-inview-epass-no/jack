@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dff5f8;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  justify-content: space-between;
+}
+
+.menu {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+h1 {
+  color: teal;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  color: teal;
+  text-decoration: underline;
+  margin: 20px 0;
+}
+
+form {
+  background-color: #e5f8fb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.captcha-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.captcha {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: white;
+  padding: 5px 15px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.refresh-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #fc6676;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: black;
+}
