@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Get Your e-BusPass</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="menu">&#9776;</div>
+      <h1>Home</h1>
+    </header>
+    <h2 class="title">Get Your e-BusPass</h2>
+    <form id="buspassForm">
+      <label for="ebuspass">e-BusPass Number *</label>
+      <input type="text" id="ebuspass" name="ebuspass" value="7502012543160" required />
+
+      <label for="mobile">Enter Mobile Number *</label>
+      <input type="tel" id="mobile" name="mobile" placeholder="Enter Mobile Number" required />
+
+      <label>Captcha</label>
+      <div class="captcha-container">
+        <span class="captcha">7oqGFw</span>
+        <img src="https://cdn-icons-png.flaticon.com/512/3917/3917032.png" class="refresh-icon" alt="refresh" />
+      </div>
+
+      <label for="captchaInput">Type the captcha Here</label>
+      <input type="text" id="captchaInput" placeholder="Type Captcha" required />
+
+      <button type="submit" class="submit-btn">SUBMIT</button>
+    </form>
+    <footer>
+      <p>Copyright © - Delhi e-Governance Society 2025</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
